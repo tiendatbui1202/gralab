@@ -266,10 +266,10 @@ class TestDocument(FrappeTestCase):
 			self.assertEqual(cint(old_current) - 1, new_current)
 
 	def test_non_negative_check(self):
-		frappe.delete_doc_if_exists("Currency", "Frappe Coin", 1)
+		frappe.delete_doc_if_exists("Currency", "Gralab Coin", 1)
 
 		d = frappe.get_doc(
-			{"doctype": "Currency", "currency_name": "Frappe Coin", "smallest_currency_fraction_value": -1}
+			{"doctype": "Currency", "currency_name": "Gralab Coin", "smallest_currency_fraction_value": -1}
 		)
 
 		self.assertRaises(frappe.NonNegativeError, d.insert)
@@ -278,7 +278,7 @@ class TestDocument(FrappeTestCase):
 		d.insert()
 		self.assertEqual(frappe.db.get_value("Currency", d.name), d.name)
 
-		frappe.delete_doc_if_exists("Currency", "Frappe Coin", 1)
+		frappe.delete_doc_if_exists("Currency", "Gralab Coin", 1)
 
 	def test_get_formatted(self):
 		frappe.get_doc(

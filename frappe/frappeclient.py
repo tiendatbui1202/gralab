@@ -92,7 +92,7 @@ class FrappeClient:
 			self.headers.update(auth_header)
 
 			if self.frappe_authorization_source:
-				auth_source = {"Frappe-Authorization-Source": self.frappe_authorization_source}
+				auth_source = {"Gralab-Authorization-Source": self.frappe_authorization_source}
 				self.headers.update(auth_source)
 
 	def logout(self):
@@ -371,7 +371,7 @@ class FrappeClient:
 		if rjson and ("exc" in rjson) and rjson["exc"]:
 			try:
 				exc = json.loads(rjson["exc"])[0]
-				exc = "FrappeClient Request Failed\n\n" + exc
+				exc = "GralabClient Request Failed\n\n" + exc
 			except Exception:
 				exc = rjson["exc"]
 

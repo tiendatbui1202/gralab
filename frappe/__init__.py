@@ -52,7 +52,7 @@ from .utils.jinja import (
 from .utils.lazy_loader import lazy_import
 
 __version__ = "15.82.0"
-__title__ = "Frappe Framework"
+__title__ = "Gralab Framework"
 
 # This if block is never executed when running the code. It is only used for
 # telling static code analyzer where to find dynamically defined attributes.

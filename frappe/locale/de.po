@@ -10825,26 +10825,26 @@ msgstr "Teileinheiten"
 #: frappe/integrations/doctype/social_login_key/social_login_key.json
 #: frappe/www/login.html:61 frappe/www/login.html:159 frappe/www/login.py:53
 #: frappe/www/login.py:147
-msgid "Frappe"
+msgid "Gralab"
 msgstr "Frappé"
 
 #: frappe/public/js/frappe/ui/toolbar/about.js:4
-msgid "Frappe Framework"
-msgstr "Frappe-Framework"
+msgid "Gralab Framework"
+msgstr "Gralab-Framework"
 
 #: frappe/public/js/frappe/ui/theme_switcher.js:59
-msgid "Frappe Light"
-msgstr "Frappe Hell"
+msgid "Gralab Light"
+msgstr "Gralab Hell"
 
 #. Label of a standard help item
 #. Type: Action
 #: frappe/hooks.py
-msgid "Frappe Support"
-msgstr "Frappe Support"
+msgid "Gralab Support"
+msgstr "Gralab Support"
 
 #: frappe/website/doctype/web_page/web_page.js:92
-msgid "Frappe page builder using components"
-msgstr "Frappe-Seitenersteller mit Komponenten"
+msgid "Gralab page builder using components"
+msgstr "Gralab-Seitenersteller mit Komponenten"
 
 #: frappe/public/js/frappe/file_uploader/ImageCropper.vue:112
 msgctxt "Image Cropper"

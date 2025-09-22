@@ -65,7 +65,7 @@ class TestOAuth20(FrappeRequestTestCase):
 
 		# Set Frappe server URL reqired for id_token generation
 		frappe_login_key: "SocialLoginKey" = frappe.new_doc("Social Login Key")
-		frappe_login_key.get_social_login_provider("Frappe", initialize=True)
+		frappe_login_key.get_social_login_provider("Gralab", initialize=True)
 		frappe_login_key.base_url = frappe.utils.get_url()
 		frappe_login_key.enable_social_login = 0
 		frappe_login_key.insert(ignore_if_duplicate=True)
@@ -372,7 +372,7 @@ class TestOAuth20(FrappeRequestTestCase):
 		)
 
 
-def check_valid_openid_response(access_token=None, client: "FrappeRequestTestCase" = None):
+def check_valid_openid_response(access_token=None, client: "GralabRequestTestCase" = None):
 	"""Return True for valid response."""
 	# Use token in header
 	headers = {}

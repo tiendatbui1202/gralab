@@ -281,7 +281,7 @@ frappe.views.ListSidebar = class ListSidebar {
 
 		const message = __("Get more insights with");
 		const link = "https://frappe.io/s/insights";
-		const cta = "Frappe Insights";
+		const cta = "Gralab Insights";
 		this.add_banner(message, link, cta);
 	}
 

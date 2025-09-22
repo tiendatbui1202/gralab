@@ -390,7 +390,7 @@
    "label": "Navbar Template"
   },
   {
-   "default": "Frappe",
+   "default": "Gralab",
    "fieldname": "app_name",
    "fieldtype": "Data",
    "label": "App Name"

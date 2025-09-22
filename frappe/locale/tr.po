@@ -9785,7 +9785,7 @@ msgstr "Görüntü optimize edilemedi: {0}"
 
 #: frappe/integrations/frappe_providers/frappecloud_billing.py:95
 msgid "Failed to request login to Frappe Cloud"
-msgstr "Frappe Cloud'da oturum açma isteği başarısız oldu"
+msgstr "Gralab Cloud'da oturum açma isteği başarısız oldu"
 
 #: frappe/email/doctype/email_queue/email_queue.py:280
 msgid "Failed to send email with subject:"
@@ -10820,26 +10820,26 @@ msgstr "Kesir Birimleri"
 #: frappe/integrations/doctype/social_login_key/social_login_key.json
 #: frappe/www/login.html:61 frappe/www/login.html:159 frappe/www/login.py:53
 #: frappe/www/login.py:147
-msgid "Frappe"
+msgid "Gralab"
 msgstr "ERP"
 
 #: frappe/public/js/frappe/ui/toolbar/about.js:4
-msgid "Frappe Framework"
-msgstr "Frappe Framework"
+msgid "Gralab Framework"
+msgstr "Gralab Framework"
 
 #: frappe/public/js/frappe/ui/theme_switcher.js:59
-msgid "Frappe Light"
+msgid "Gralab Light"
 msgstr "Açık Tema"
 
 #. Label of a standard help item
 #. Type: Action
 #: frappe/hooks.py
-msgid "Frappe Support"
-msgstr "Frappe Desteği"
+msgid "Gralab Support"
+msgstr "Gralab Desteği"
 
 #: frappe/website/doctype/web_page/web_page.js:92
-msgid "Frappe page builder using components"
-msgstr "Frappe sayfa oluşturucunun kullandığı bileşenşer"
+msgid "Gralab page builder using components"
+msgstr "Gralab sayfa oluşturucunun kullandığı bileşenşer"
 
 #: frappe/public/js/frappe/file_uploader/ImageCropper.vue:112
 msgctxt "Image Cropper"
@@ -14920,7 +14920,7 @@ msgstr "Henüz yeni bir bildirim almadınız."
 
 #: frappe/core/doctype/server_script/server_script_list.js:18
 msgid "Loving Frappe Framework?"
-msgstr "Frappe Framework'ü seviyor musunuz?"
+msgstr "Gralab Framework'ü seviyor musunuz?"
 
 #. Option for the 'Priority' (Select) field in DocType 'ToDo'
 #: frappe/desk/doctype/todo/todo.json
@@ -24346,7 +24346,7 @@ msgstr "Başlangıç"
 
 #: frappe/desk/page/setup_wizard/setup_wizard.js:274
 msgid "Starting Frappe ..."
-msgstr "Frappe Başlatılıyor..."
+msgstr "Gralab Başlatılıyor..."
 
 #. Label of a Datetime field in DocType 'Event'
 #: frappe/desk/doctype/event/event.json
@@ -27344,7 +27344,7 @@ msgstr "Güncellenen Değer"
 
 #: frappe/utils/change_log.py:386
 msgid "Update from Frappe Cloud"
-msgstr "Frappe Cloud'dan Güncelle"
+msgstr "Gralab Cloud'dan Güncelle"
 
 #: frappe/public/js/frappe/list/bulk_operations.js:375
 msgid "Update {0} records"

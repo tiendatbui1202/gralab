@@ -139,7 +139,7 @@ class TestTwoFactor(FrappeTestCase):
 
 	def test_render_string_template(self):
 		"""String template renders as expected with variables."""
-		args = {"issuer_name": "Frappe Technologies"}
+		args = {"issuer_name": "Gralab Technologies"}
 		_str = "Verification Code from {{issuer_name}}"
 		_str = frappe.render_template(_str, args)
 		self.assertEqual(_str, "Verification Code from Frappe Technologies")
