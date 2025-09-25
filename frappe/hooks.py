@@ -7,10 +7,10 @@ app_title = "Gralab Framework"
 app_publisher = "Gralab Technologies"
 app_description = "Full stack web framework with Python, Javascript, MariaDB, Redis, Node"
 app_license = "MIT"
-app_logo_url = "/assets/frappe/images/frappe-framework-logo.svg"
+app_logo_url = "/assets/frappe/images/gralab_logo.svg"
 develop_version = "15.x.x-develop"
 
-app_email = "developers@frappe.io"
+app_email = "developers@gralab.io"
 
 before_install = "frappe.utils.install.before_install"
 after_install = "frappe.utils.install.after_install"

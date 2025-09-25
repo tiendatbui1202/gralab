@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" width="1132.7mm" height="812mm" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 3210.7 2301.6">
+  <defs>
+    <style>
+      .cls-1 {
+        letter-spacing: .2em;
+      }
+
+      .cls-2 {
+        fill: url(#linear-gradient);
+      }
+
+      .cls-3 {
+        font-family: Montserrat-ExtraBold, Montserrat;
+        font-size: 354.5px;
+        font-weight: 700;
+      }
+
+      .cls-4 {
+        letter-spacing: .3em;
+      }
+
+      .cls-5 {
+        font-family: Montserrat-Light, Montserrat;
+        font-size: 110.1px;
+        font-weight: 300;
+      }
+
+      .cls-6 {
+        letter-spacing: .2em;
+      }
+
+      .cls-7 {
+        letter-spacing: .2em;
+      }
+
+      .cls-8 {
+        letter-spacing: .3em;
+      }
+
+      .cls-9 {
+        letter-spacing: .3em;
+      }
+
+      .cls-10 {
+        letter-spacing: .3em;
+      }
+
+      .cls-11 {
+        letter-spacing: .3em;
+      }
+
+      .cls-12 {
+        letter-spacing: .3em;
+      }
+
+      .cls-13 {
+        fill: #fff;
+        fill-rule: evenodd;
+      }
+    </style>
+    <linearGradient id="linear-gradient" x1="1082.1" y1="249.6" x2="2087.1" y2="1254.5" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#9de359"/>
+      <stop offset="1" stop-color="#00d9a7"/>
+    </linearGradient>
+  </defs>
+  <rect class="cls-2" x="1033.7" y="205.3" width="1101.7" height="1093.4" rx="158.2" ry="158.2"/>
+  <path class="cls-13" d="M1582.8,401.5l202.5,116.9v-85.3l-202.5-116.9-377.1,217.7v435.4l377.1,217.7c121.4-70.1,242.8-140.2,364.2-210.3l12.8-7.4v-99.7l-73.9-20.8v77.9l-303.1,175-303.1-175v-350.1l303.1-175Z"/>
+  <path class="cls-13" d="M1785.3,634.7v-85.3l-202.5-116.9-276.4,159.5v319.1l276.4,159.6,276.4-159.6-2.9-36.5-71.1-41v34.8l-202.5,116.9-202.5-116.9v-233.8l202.5-116.9,202.4,116.9Z"/>
+  <polygon class="cls-13" points="1582.8 600.5 1582.8 685.8 1959.9 903.5 1959.9 818.2 1582.8 600.5"/>
+  <text transform="translate(660.9 1737.6)"><tspan class="cls-3"><tspan class="cls-7" x="0" y="0">GRA</tspan><tspan class="cls-1" x="1026.5" y="0">L</tspan><tspan class="cls-6" x="1316.1" y="0">AB</tspan></tspan><tspan class="cls-5"><tspan class="cls-9" x="0" y="132.1">P</tspan><tspan class="cls-12" x="110.6" y="132.1">L</tspan><tspan class="cls-4" x="208" y="132.1">A</tspan><tspan class="cls-11" x="314.8" y="132.1">T</tspan><tspan class="cls-8" x="409.8" y="132.1">F</tspan><tspan class="cls-12" x="511.3" y="132.1">ORM </tspan><tspan class="cls-10" x="948.4" y="132.1">SY</tspan><tspan class="cls-9" x="1147" y="132.1">S</tspan><tspan class="cls-12" x="1245.9" y="132.1">TEM AIO</tspan></tspan></text>
+</svg>
