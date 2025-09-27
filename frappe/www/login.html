@@ -58,6 +58,20 @@
 		</div>
 	</form>
 {% endmacro %}
+{% macro forgot_body() -%}
+<h2>{{ _("Forgot Password") }}</h2>
+	<form class="form form-signin form-forgot hide">
+		<label class="field">
+			<span class="bar"></span>
+			<input type="text" id="forgot_email" placeholder="{{ _('gralab@example.com') }}" required>
+		</label>
+		<button class="big-btn" type="submit">{{ _("Reset Password") }}</button>
+		
+		<div class="signup-link">
+			<p>{{ _("Have an account?") }} <a href="#login">{{ _("Login") }}</a></p>
+		</div>
+	</form>
+{% endmacro %}
 
 {% block head_include %}
 {{ include_style('login.bundle.css') }}
@@ -88,7 +102,7 @@
 		<!-- RIGHT PANEL -->
 		<div class="right">
 			<div class="logo-right">
-				<img src="{{ logo }}" alt="Company Logo">
+				<img src="{{ logo }}" alt="Gralab Logo">
 				{%- if social_login or login_with_email_link -%}
 				{{ email_login_body() }}
 				{% else %}
@@ -105,12 +119,25 @@
 		<!-- RIGHT PANEL -->
 		<div class="right">
 			<div class="logo-right">
-				<img src="{{ logo }}" alt="Company Logo">
+				<img src="{{ logo }}" alt="Gralab Logo">
 				{%- if not disable_signup -%}
 					{{ singup_body() }}
 				{%- else -%}
 			{{ singup_body() }}
 			{%- endif -%}
+			</div>
+		</div>
+	</div>
+</section>
+<section class="for-forgot">
+	<div class="layout">
+		<!-- LEFT PANEL -->
+		{{ logo_section() }}
+		<!-- RIGHT PANEL -->
+		<div class="right">
+			<div class="logo-right">
+				<img src="{{ logo }}" alt="Gralab Logo">
+					{{ forgot_body() }}
 			</div>
 		</div>
 	</div>
